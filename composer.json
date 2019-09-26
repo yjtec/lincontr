@@ -1,0 +1,23 @@
+{
+    "name": "yjtec/lincontroller",
+    "description": "控制器",
+    "keywords": ["Controller", "linphe"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ax",
+            "email": "18716463@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">5.6",
+        "yjtec/linview": "*",
+        "yjtec/lintools": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yjtec\\LinController\\": "src/"
+        }
+    }
+}
